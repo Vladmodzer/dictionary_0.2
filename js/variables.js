@@ -1,0 +1,15 @@
+export const ID_mainListBtn =  document.getElementById("main__list-btn");
+export const ID_mainAddWordBtn = document.getElementById("main__add-word-btn");
+export const ID_mainTabele = document.querySelector('.main__table');
+export const ID_main__add_word_btn = document.getElementById("main__add-word-btn");
+export const CLASS_main__add_word_box = document.querySelector('.main__add-word-box');
+export const CLASS_mainNewWordPaar = document.querySelectorAll('.main__new-word-paar');
+export const CLASS_MainTableWord = document.querySelectorAll('.main__table-word');
+export const CLASS_mainTableTranslate = document.querySelectorAll('.main__table-translate');
+export const ID_mainBtnDelete = document.getElementById("table-btn-delite");
+export const ID_btnSaveWord = document.getElementById("btn-save-word");
+export const ID_inputWord = document.getElementById("input-word");
+export const ID_inputTranslate = document.getElementById("input-translate");
+export const CLASS_newRow = document.querySelector('.new-row');
+export const TAG_tbady = document.getElementById('tbody');
+export const CLASS_mainTableWrapper = document.querySelector('.main__table-wrapper')

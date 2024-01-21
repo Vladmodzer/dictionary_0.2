@@ -1,0 +1,27 @@
+.main__input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid var(--header-color);
+}
+
+.main__add-word-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main__input-btn-box {
+    display: flex;
+    align-self: end;
+}
+
+.main__inputs-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__input-word:focus, .main__input-translate:focus {
+    outline-color: transparent;
+    border-color: transparent;
+
+}

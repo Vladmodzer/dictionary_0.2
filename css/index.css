@@ -1,0 +1,166 @@
+@import '../css/components/btn.css';
+@import '../css/word-table.css';
+@import '../css/main-add-word-box.css';
+@import '../css/media-queries.css';
+@import '../css/load-indicator.css';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: calc(14px + (100 - 18) * ((100vw - 375px) / 1900));
+    font-family: Arial, sans-serif;
+
+
+}
+
+html,
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+:root {
+    --main-col: rgb(226, 237, 244);
+    --green-col: rgb(209, 251, 208);
+    --header-color: rgb(52, 50, 50);
+    --light-col: #fff;
+    --button-blue-col: #008CBA;
+    --button-hover-blue-col: #4aafe1;
+    --button-red-col: #f44336;
+    --button-red-hover-col: #e17f78;
+    --table-col: #d8efd8;
+    --light-gray: #f2f2f2;
+    --table-hover-col: #a9f1b3;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1800px;
+
+}
+
+.wrapper {
+    background-color: var(--main-col);
+
+}
+
+header {
+    background: var(--header-color);
+    display: flex;
+    justify-content: center;
+    color: var(--light-col);
+    padding: 25px;
+}
+
+header h1 {
+    text-transform: uppercase;
+   
+}
+
+.main {
+    height: 100vh;
+}
+
+.main__title {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main__button-box {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.main__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.main__title h1 {
+    text-transform: capitalize;
+    color: var(--header-color);
+}
+
+.main__button-box {
+    margin-bottom: 30px;
+}
+
+.main__table-wrapper {
+    height: 100vh;
+    padding: 20px;
+}
+
+.main__description {
+    text-align: center;
+    padding: 0 20px;
+    opacity: 0.8;
+}
+.button-del-marg-l {
+    margin-left: 10px;
+}
+.dropDawn {
+    background-color: var(--light-gray);
+    position: absolute;
+    /* display: none; */
+}
+.show-dropDawn {
+    display: block;
+}
+.position-relative {
+    position: relative;
+}
+td {
+    word-break: break-all;
+}
+@media(max-width:769px) {
+    #table-btn-edit,
+    #table-btn-delete {
+        font-size: 8px !important;
+        padding: 6px 10px;
+    }
+}
+@media(max-width:426px) {
+
+    #table-btn-edit,
+    #table-btn-delete {
+        font-size: 5px !important;
+        padding: 4px 8px;
+        margin-left: 5px;
+    }
+    .main__btn-save {
+        font-size: 8px;
+        padding: 4px 8px;
+    }
+    td{
+        font-size: 8px !important;
+    }
+    .button-del-marg-l {
+        margin-left: 0;
+    }
+
+}
+@media(max-width:321px){
+    .button-del-marg-l {
+        margin-left: 0;
+    }
+    #table-btn-edit,
+    #table-btn-delete {
+        font-size: 5px !important;
+        padding: 2px 4px;
+        margin-left: 3px;
+    }
+}
+@media(min-width:1899px) {
+    .main__btn-save {
+        font-size: 28px;
+        padding: 12px 24px;
+    }
+}

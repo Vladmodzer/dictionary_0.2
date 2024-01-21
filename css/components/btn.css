@@ -1,0 +1,68 @@
+.btn {
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    color: var(--light-col);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.midle-btn {
+    color: var(--light-col);
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+
+    cursor: pointer;
+    border-radius: 4px;
+}
+.small-btn {
+    color: var(--light-col);
+    border: none;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 10px;
+}
+.extra-small-btn {
+    color: var(--light-col);
+    border: none;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 5px;
+}
+.btn-blue-hover:hover {
+    background-color: var(--button-hover-blue-col);
+}
+.btn-blue {
+    background-color: var(--button-blue-col);
+}
+
+.btn-red{
+    background-color: var(--button-red-col);
+}
+.btn-red-hover:hover {
+    background-color: var(--button-red-hover-col);
+}
+.btn-active:active {
+    transform: translateY(1px); /* или другие стили, которые придадут визуальный эффект нажатия */
+    box-shadow: 0 0 5px var( --header-color); /* тень или другие стили */
+}
+.btn-show {
+    display: inline-block;
+}
