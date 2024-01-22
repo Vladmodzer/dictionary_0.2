@@ -131,16 +131,17 @@ td {
 
     #table-btn-edit,
     #table-btn-delete {
-        font-size: 5px !important;
+        font-size: 10px !important;
         padding: 4px 8px;
         margin-left: 5px;
+        border-radius: 3px;
     }
     .main__btn-save {
-        font-size: 8px;
+        font-size: 14px;
         padding: 4px 8px;
     }
     td{
-        font-size: 8px !important;
+        font-size: 14px !important;
     }
     .button-del-marg-l {
         margin-left: 0;
@@ -156,6 +157,7 @@ td {
         font-size: 5px !important;
         padding: 2px 4px;
         margin-left: 3px;
+        border-radius: 2px;
     }
 }
 @media(min-width:1899px) {
